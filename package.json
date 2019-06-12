@@ -39,20 +39,12 @@
   },
   "homepage": "git+https://github.com/ship-components/ship-components-ago#readme",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-runtime": "^6.26.0",
     "classnames": "^2.2.6",
-    "font-awesome": "^4.7.0",
     "immutable": "^3.8.2",
     "javascript-time-ago": "^2.0.1",
-    "mockdate": "^2.0.2",
     "moment": "^2.24.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-timeago": "^4.4.0"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -60,6 +52,11 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.6.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "coveralls": "^3.0.4",
     "css-loader": "^2.1.1",
     "enzyme": "^3.10.0",

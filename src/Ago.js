@@ -46,7 +46,7 @@ export default class Ago extends React.Component {
     if (timeDiff < 1) {
       fuzzy = 'just now';
     }
-    // need to determine rule for displaying minutes, weeks, months, or date
+
     if (fuzzy === null) {
       if (this.props.twitter) {
         fuzzy = this.convertTime.format(time.toDate(), 'twitter');
@@ -88,6 +88,7 @@ Ago.propTypes = {
   className: PropTypes.string,
   date: PropTypes.oneOfType([
     PropTypes.string,
+    PropTypes.number,
     PropTypes.instanceOf(Date)
   ]).isRequired,
   tag: PropTypes.string,
