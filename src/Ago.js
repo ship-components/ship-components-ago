@@ -41,7 +41,7 @@ export default class Ago extends React.Component {
     // when adding a comment, doining the calculations below
     // to find out if a comment was just posted. in that case
     // removing the Twitter style
-    var fuzzy = null;
+    let fuzzy = null;
     let timeDiff = moment().diff(time.toDate(), 'minutes');
     if (timeDiff < 1) {
       fuzzy = 'Just now';
