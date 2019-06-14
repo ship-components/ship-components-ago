@@ -29,6 +29,7 @@ Examples can be found in the `examples/` folder.
 
 ## Changelog
 
+- 0.1.1: Fixed import bug
 - 0.1.0: Added basic functionality, such as regarding twitter comment shortening.
 
 ## Usage
