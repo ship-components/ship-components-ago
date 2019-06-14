@@ -44,17 +44,13 @@ export default class Ago extends React.Component {
     var fuzzy = null;
     let timeDiff = moment().diff(time.toDate(), 'minutes');
     if (timeDiff < 1) {
-      fuzzy = 'just now';
+      fuzzy = 'Just now';
+    } else if (this.props.twitter) {
+      fuzzy = this.convertTime.format(time.toDate(), 'twitter');
+    } else {
+      fuzzy = this.convertTime.format(time.toDate());
     }
 
-    if (fuzzy === null) {
-      if (this.props.twitter) {
-        fuzzy = this.convertTime.format(time.toDate(), 'twitter');
-      } else {
-        fuzzy = this.convertTime.format(time.toDate(), this.options);
-      }
-    }
-    
     return (
       <this.props.tag
         className={classNames('moment-ago', this.props.className)}

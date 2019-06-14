@@ -3,7 +3,6 @@ Exports a component that detects how long ago an element was created or made.
 
 [![npm](https://img.shields.io/npm/v/ship-components-ago.svg)](https://www.npmjs.com/package/ship-components-ago)
 [![Build Status](http://img.shields.io/travis/ship-components/ship-components-ago/master.svg?style=flat)](https://travis-ci.org/ship-components/ship-components-ago)
-[![Coverage](http://img.shields.io/coveralls/ship-components/ship-components-ago.svg?style=flat)](https://coveralls.io/github/ship-components/ship-components-ago)
 
 ### Overview
 
