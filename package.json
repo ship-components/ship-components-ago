@@ -1,6 +1,6 @@
 {
   "name": "ship-components-ago",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "React component used for time formatting and upload ",
   "main": "src/Ago.js",
   "scripts": {
