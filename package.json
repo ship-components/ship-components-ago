@@ -1,8 +1,8 @@
 {
   "name": "ship-components-ago",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React component used for time formatting and upload ",
-  "main": "src/index.js",
+  "main": "src/Ago.js",
   "scripts": {
     "start": "grunt server",
     "lint": "./node_modules/eslint/bin/eslint.js src/",

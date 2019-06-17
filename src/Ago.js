@@ -5,10 +5,11 @@ import moment from 'moment';
 
 import TimeAgo from 'javascript-time-ago';
 import localeEN from 'javascript-time-ago/locale/en';
+import localeJA from 'javascript-time-ago/locale/ja';
 
-// Setup english
-TimeAgo.locale(localeEN);
-
+// Setup English and Japanese locales
+TimeAgo.locale(localeJA)
+TimeAgo.locale(localeEN)
 /**
  * Fuzzy Date Component
  */
@@ -43,8 +44,9 @@ export default class Ago extends React.Component {
     // removing the Twitter style
     let fuzzy = null;
     let timeDiff = moment().diff(time.toDate(), 'minutes');
-    if (timeDiff < 1) {
-      fuzzy = 'Just now';
+    
+    if (timeDiff == 0) {
+      fuzzy = this.convertTime.format(time.toDate());
     } else if (this.props.twitter) {
       fuzzy = this.convertTime.format(time.toDate(), 'twitter');
     } else {

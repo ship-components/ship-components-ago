@@ -29,6 +29,7 @@ Examples can be found in the `examples/` folder.
 
 ## Changelog
 
+- 0.2.0: Fixed package.json main path, added JA localization, and added second/minute examples.
 - 0.1.0: Added basic functionality, such as regarding twitter comment shortening.
 
 ## Usage
