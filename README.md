@@ -6,7 +6,7 @@ Exports a component that detects how long ago an element was created or made.
 
 ### Overview
 
-There are two formats for displaying the component. The normal format which does not take in the `twitter` property will show a longer version of time difference between when a snippet was posted versus the present time. 
+There are two formats for displaying the component. The normal format which does not take in the `twitter` property will show a longer version of time difference between when a snippet was posted versus the present time.
 
 Using the `twitter` prop results in a smaller version. See the image below for examples.
 ### Examples image
@@ -24,11 +24,12 @@ After running the command above, run the following command in and navigate to ht
 ```shell
 $ npm run start
 ```
-  
-Examples can be found in the `examples/` folder. 
+
+Examples can be found in the `examples/` folder.
 
 ## Changelog
 
+- 0.2.1: Remove engines requirement
 - 0.2.0: Fixed package.json main path, added JA localization, and added second/minute examples.
 - 0.1.0: Added basic functionality, such as regarding twitter comment shortening.
 
