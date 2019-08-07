@@ -1,6 +1,6 @@
 {
   "name": "ship-components-ago",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React component used for time formatting and upload ",
   "main": "src/Ago.js",
   "scripts": {
@@ -17,9 +17,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ship-components/ship-components-ago.git"
-  },
-  "engines": {
-    "node": ">=4.0 <9.0"
   },
   "keywords": [
     "react",
